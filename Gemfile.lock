@@ -55,7 +55,6 @@ GEM
       thor (~> 0.14)
     jruby-openssl (0.7.7)
       bouncy-castle-java (>= 1.5.0146.1)
-    json (1.7.4)
     json (1.7.4-java)
     mail (2.4.4)
       i18n (>= 0.4.0)
@@ -111,6 +110,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-jdbcsqlite3-adapter
+  bundler (= 1.2.0.rc)
   closure-compiler
   coffee-rails (~> 3.2.1)
   jquery-rails
